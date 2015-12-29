@@ -1,7 +1,10 @@
 doctype html
-html
+html(ng-app="PartyGuesserApp")
   head
-    title= title
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js")
+    script(src="http://localhost:3000/javascripts/controllers.js")
     link(rel='stylesheet', href='/stylesheets/style.css')
+
   body
     block content
+

@@ -1,8 +1,41 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'freight-sans-pro', 'Helvetica', 'Avenir', 'Arial', sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+
+#front-main {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#front-test {
+    font-size:1.3em;
+    margin-top:100px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    margin-top:200px;
+    margin-left:200px;
+    padding:20px;
+    background-color:blue;
+
+}
+
+.right {
+    float:right;
+    padding:20px;
+    margin-top:-150px;
+    margin-right:300px;
+    background-color:red;
 }
