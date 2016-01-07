@@ -23,19 +23,31 @@ a {
     text-align: center;
 }
 
+.test div {
+    text-align: center;
+}
+.test {
+    margin-top:125px;
+}
+
+.adb {
+    margin-top:150px;
+}
+
 .left {
-    float: left;
-    margin-top:200px;
+    float:right;
     margin-left:200px;
     padding:20px;
     background-color:blue;
 
 }
 
+.leftside {
+    /*background-color:/;*/
+}
+
 .right {
-    float:right;
+    float:left;
     padding:20px;
-    margin-top:-150px;
-    margin-right:300px;
     background-color:red;
 }

@@ -5,6 +5,7 @@ var PartyGuesserApp = angular.module('PartyGuesserApp', []);
 
 PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
 
+
   $scope.currentIndex = 0
 
   $scope.currentSession = {
@@ -24,6 +25,9 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
   $scope.advance = function(party) {
 
     var currentSenator = $scope.senatorInfo[$scope.currentIndex]
+
+    console.log(party)
+    console.log(currentSenator.party)
     if (party === currentSenator.party) {
       $scope.currentSession.correct.push(currentSenator);
     }

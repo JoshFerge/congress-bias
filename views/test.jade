@@ -1,10 +1,27 @@
 extends layout
 
 block content
-    div(ng-controller="mainCtrl")
-        button(class="left"  ng-click="advance('Democrat')") Democrat
-        #front-test
-            p {{senatorInfo[currentIndex].name}}
-            p {{senatorInfo[currentIndex].state}}
-            img(width="300px" ng-src="/images/{{senatorInfo[currentIndex].name}}.jpg")
-        button(class="right" ng-click="advance('Republican')") Republican
+    div(ng-controller="mainCtrl" class="container-fluid")
+        div(class="row test")
+            div(class="col-md-4 leftside")
+                button(class="left adb"  ng-click="advance('Democratic')") Democrat
+            div(class="col-md-4 ")
+                p {{senatorInfo[currentIndex].name}}
+                img(width="300px" ng-src="/images/{{senatorInfo[currentIndex].name}}.jpg")
+            div(class="col-md-4 rightside")
+                button(class="right adb" ng-click="advance('Republican')") Republican
+
+
+
+//- extends layout
+
+//- block content
+//-     div(ng-controller="mainCtrl" class="container-fluid")
+//-     div(class="row")
+//-         div(class="col-md-4")
+//-             button(class="left"  ng-click="advance('Democrat')") Democrat
+//-         div(class="col-md-4")
+//-             p {{senatorInfo[currentIndex].name}}
+//-             img(width="300px" ng-src="/images/{{senatorInfo[currentIndex].name}}.jpg")
+//-         div(class="col-md-4")
+//-             button(class="right" ng-click="advance('Republican')") Republican
