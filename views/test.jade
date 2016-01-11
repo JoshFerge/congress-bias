@@ -2,11 +2,12 @@ extends layout
 
 block content
     div(ng-controller="mainCtrl" class="container-fluid")
+        div(id="indicator") correct
         div(class="row test")
             div(class="col-md-4 leftside")
                 button(class="left adb"  ng-click="advance('Democratic')") Democrat
             div(class="col-md-4 ")
-                p {{senatorInfo[currentIndex].name}}
+                p(class="name") {{senatorInfo[currentIndex].name}}
                 img(width="300px" ng-src="/images/{{senatorInfo[currentIndex].name}}.jpg")
             div(class="col-md-4 rightside")
                 button(class="right adb" ng-click="advance('Republican')") Republican

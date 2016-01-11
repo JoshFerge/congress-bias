@@ -1,5 +1,7 @@
 body {
-  font: 14px 'freight-sans-pro', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+  font-family: 'Slabo 27px', serif;
+  background-image:url(/images/americanflag.jpg);
+
 }
 
 a {
@@ -9,13 +11,23 @@ a {
 
 #front-main {
     max-width: 800px;
+    margin-top:170px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+
 }
 
+button {
+    border-radius: 5px;
+    outline:none;
+    border:none;
+}
+
+
+
 #front-test {
-    font-size:1.3em;
+    font-size:1.8em;
     margin-top:100px;
     max-width: 800px;
     margin-left: auto;
@@ -25,6 +37,13 @@ a {
 
 .test div {
     text-align: center;
+    font-size: 1.5em;
+}
+
+.name {
+    font-size:1.3em;
+    background-color:purple;
+    color:black;
 }
 .test {
     margin-top:125px;
@@ -32,22 +51,47 @@ a {
 
 .adb {
     margin-top:150px;
+    width:160px;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
 .left {
+    color:white;
     float:right;
     margin-left:200px;
-    padding:20px;
     background-color:blue;
 
 }
 
-.leftside {
-    /*background-color:/;*/
-}
-
 .right {
     float:left;
-    padding:20px;
     background-color:red;
+}
+
+
+
+#indicator {
+    position: absolute;
+    color:green;
+    left:300px;
+    visibility: hidden;
+    font-size:2em;
+}
+
+.animateit {
+    -webkit-animation: moving 1s;
+    animation: moving 1s;
+    visibility: visible !important
+
+}
+
+@-webkit-keyframes moving {
+    from {top: 100px;}
+    to {top: 500px;}
+}
+
+@keyframes moving {
+    from {top: 120px;}
+    to {top: 0px;}
 }
