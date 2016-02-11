@@ -1,6 +1,8 @@
 body {
   font-family: 'Slabo 27px', serif;
   background-image:url(/images/americanflag.jpg);
+  background-color:#eee;
+
 
 }
 
@@ -10,12 +12,24 @@ a {
 
 
 #front-main {
+    padding: 30px 0 0 0;
     max-width: 800px;
     margin-top:170px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    height:500px;
+    background-color:#eee;
 
+}
+
+
+#front-main p {
+    font-size:20px;
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center
 }
 
 button {
@@ -24,6 +38,12 @@ button {
     border:none;
 }
 
+
+.convert {
+    width:200px;
+    height:100px;
+    font-size: 30px
+}
 
 
 #front-test {
@@ -42,11 +62,15 @@ button {
 
 .name {
     font-size:1.3em;
-    background-color:purple;
     color:black;
 }
 .test {
+    padding: 20px 0 20px 0;
+    background-color: #eee;
     margin-top:125px;
+    max-width:1300px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .adb {
@@ -57,41 +81,86 @@ button {
 }
 
 .left {
-    color:white;
-    float:right;
-    margin-left:200px;
-    background-color:blue;
+    /*color:white;*/
+
+    margin-left:40%;
+    background-color:#eee;
+    border:3px solid #111;
 
 }
 
+.left:hover {
+    border:3px solid blue;
+}
+
 .right {
-    float:left;
-    background-color:red;
+    margin-right:40%;
+    background-color:#eee;
+    border:3px solid #111;
+}
+
+.right:hover {
+    border:3px solid red;
 }
 
 
 
 #indicator {
-    position: absolute;
+    position:relative;
     color:green;
-    left:300px;
+    left:100px;
+    top:-300px;
     visibility: hidden;
     font-size:2em;
 }
+
+#rightindicator {
+    position:relative;
+    color:green;
+    top:-300px;
+    visibility: hidden;
+    font-size:2em;
+
+}
+
+/*#rightindicator {
+    position:relative;
+    color:green;
+    top:100px;
+    visibility: hidden;
+    font-size:2em;
+    left:-200px;
+}*/
 
 .animateit {
     -webkit-animation: moving 1s;
     animation: moving 1s;
     visibility: visible !important
+}
 
+.animateit-right {
+    -webkit-animation: moving-right 1s;
+    animation: moving-right 1s;
+    visibility: visible !important
 }
 
 @-webkit-keyframes moving {
-    from {top: 100px;}
-    to {top: 500px;}
+    from {top: -150px;}
+    to {top: -350px;}
 }
 
 @keyframes moving {
-    from {top: 120px;}
-    to {top: 0px;}
+    from {top: -150px;}
+    to {top: -350px;}
+}
+
+
+@-webkit-keyframes moving-right {
+     from {top: -150px;}
+    to {top: -350px;}
+}
+
+@keyframes moving-right {
+     from {top: -150px;}
+    to {top: -350px;}
 }

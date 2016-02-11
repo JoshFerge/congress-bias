@@ -4,11 +4,19 @@ var PartyGuesserApp = angular.module('PartyGuesserApp', []);
 var l;
 window.onload = function () {
   l = document.getElementById('indicator');
+  r = document.getElementById('rightindicator');
   l.addEventListener('animationend', function() {
-    console.log('TESTING');
     document.getElementById('indicator').className = "";
   });
+
+   r.addEventListener('animationend', function() {
+    document.getElementById('rightindicator').className = "";
+  });
+
+
 };
+
+
 
 
 
@@ -42,34 +50,30 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
       $scope.currentSession.correct.push(currentSenator);
 
       if (party === 'Republican') {
-        l.innerHTML = 'correct'
-        l.className = 'animateit'
-        l.style.left = '1000px'
-        l.style.color = 'green'
+        r.innerHTML = 'correct'
+        r.className = 'animateit-right'
+        r.style.color = 'green'
       }
       else {
         l.className = 'animateit'
         l.innerHTML = 'correct'
         l.style.right = '0'
-        l.style.left = '300px'
         l.style.color = 'green'
-
       }
     }
     else {
       $scope.currentSession.incorrect.push(currentSenator);
       if (party === 'Republican') {
-        l.innerHTML = 'incorrect'
-        l.className = 'animateit'
-        l.style.color = 'red'
-        l.style.left = '1000px'
+        r.innerHTML = 'incorrect'
+        r.className = 'animateit-right'
+        r.style.color = 'red'
+
       }
       else {
         l.innerHTML = 'incorrect'
         l.className = 'animateit'
         l.style.right = '0'
         l.style.color = 'red'
-        l.style.left = '300px'
 
       }
     }
