@@ -104,11 +104,24 @@ button {
 }
 
 
+#Done {
+    visibility: hidden;
+    margin-top:30px;
+    width:160px;
+    padding-top:20px;
+    padding-bottom:20px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#eee;
+    border:3px solid #111;
+}
+
 
 #indicator {
     position:relative;
     color:green;
-    left:100px;
+    left:90px;
     top:-300px;
     visibility: hidden;
     font-size:2em;
@@ -120,6 +133,7 @@ button {
     top:-300px;
     visibility: hidden;
     font-size:2em;
+    left:-80px;
 
 }
 
@@ -131,6 +145,20 @@ button {
     font-size:2em;
     left:-200px;
 }*/
+
+
+@media only screen and (max-width: 991px) {
+    .left {
+        margin:auto;
+        margin-top:30px;
+    }
+    .right {
+        margin:auto;
+        margin-top:50px;
+    }
+}
+
+
 
 .animateit {
     -webkit-animation: moving 1s;

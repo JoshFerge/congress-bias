@@ -9,9 +9,11 @@ block content
             div(class="col-md-4 ")
                 p(class="name") {{senatorInfo[currentIndex].name}}
                 img(width="300px" ng-src="/images/{{senatorInfo[currentIndex].name}}.jpg")
+                button(class="done" id="Done") I'm Done!
             div(class="col-md-4 rightside")
                 button(class="right adb" ng-click="advance('Republican')") Republican
                 div(id="rightindicator") correct
+
 
 
 
