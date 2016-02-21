@@ -46,7 +46,12 @@ router.get('/senators/:senator', function(req, res) {
 
 router.post('/senators/:senator', function(req, res) {
     console.log(req.body.senator.name);
-    Senator.findOneAndUpdate({ 'name': req.body.senator.name }, { $inc: { 'guessesRight': 1 }}, null, function(err, res) {console.log(err,res);});
+    if (req.body.guess) {
+        Senator.findOneAndUpdate({ 'name': req.body.senator.name }, { $inc: { 'guessesRight': 1 }}, null, function(err, res) {console.log(err,res);});
+    }
+    else {
+        Senator.findOneAndUpdate({ 'name': req.body.senator.name }, { $inc: { 'guessesWrong': 1 }}, null, function(err, res) {console.log(err,res);});
+    }
     res.send('OK');
 });
 

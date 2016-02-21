@@ -3,6 +3,9 @@ var PartyGuesserApp = angular.module('PartyGuesserApp', []);
 
 var l;
 window.onload = function () {
+
+
+
   l = document.getElementById('indicator');
   r = document.getElementById('rightindicator');
   l.addEventListener('animationend', function() {
@@ -28,11 +31,20 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
     });
   };
   $scope.getInfo();
+  $scope.done = function() {
+    console.log('test')
+    console.log(JSON.stringify($scope.currentSession))
+
+    // $http.post("/senators/"+currentSenator.name, {'senator':currentSenator});
+  }
+  document.getElementById('Done').addEventListener('click', $scope.done);
+
 
   $scope.advance = function(party) {
     var currentSenator = $scope.senatorInfo[$scope.currentIndex];
 
     if (party === currentSenator.party) {
+      $http.post("/senators/"+currentSenator.name, {'senator':currentSenator,'correct':false});
       $scope.currentSession.correct.push(currentSenator);
 
       if (party === 'Republican') {
@@ -48,6 +60,7 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
       }
     }
     else {
+      $http.post("/senators/"+currentSenator.name, {'senator':currentSenator,'correct':false});
       $scope.currentSession.incorrect.push(currentSenator);
       if (party === 'Republican') {
         r.innerHTML = 'incorrect';
@@ -62,18 +75,16 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
       }
     }
 
-    $http.post("/senators/"+currentSenator.name, {'senator':currentSenator});
-
     if ($scope.currentIndex < $scope.senatorInfo.length-1) {
       $scope.currentIndex+=1;
       console.log($scope.currentIndex);
-      if ($scope.currentIndex > 9) {
+      if ($scope.currentIndex > 2) {
         console.log('hi')
         document.getElementById('Done').style.visibility = "visible";
       }
     }
     else {
-      alert('you done');
+      $scope.done();
     }
   }
 
