@@ -10,7 +10,9 @@ a {
   color: #00B7FF;
 }
 
-
+text {
+  font-family: 'Slabo 27px', serif;
+}
 #front-main {
     padding: 30px 0 0 0;
     max-width: 800px;

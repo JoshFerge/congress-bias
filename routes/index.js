@@ -1,28 +1,36 @@
 var express = require('express');
 var router = express.Router();
-
+var shortid = require('shortid');
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/congress-bias');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function (callback) {
-  console.log('working');
+  console.log('Database connection made');
 });
 
 
 var senatorSchema = mongoose.Schema({
-    name: String,
-    state: String,
-    party: String,
-    averageAccuracy: Number,
-    guessesRight: Number,
-    guessesWrong: Number,
-    image: String
+  name: String,
+  state: String,
+  party: String,
+  averageAccuracy: Number,
+  guessesRight: Number,
+  guessesWrong: Number,
+  image: String
+});
+var sessionSchema = mongoose.Schema({
+  right: Array,
+  wrong: Array,
+  _id: {
+    type: String,
+    unique: true,
+    'default': shortid.generate
+  }
 });
 
-
-
+var Session = mongoose.model('Session', sessionSchema);
 var Senator = mongoose.model('Senator', senatorSchema);
 
 // var g = {"senatorInfo":[{'name':'Bernie Sanders','state':'Vermont','party':'Democrat','image':'/images/bernie_sanders.jpg'}]};
@@ -52,7 +60,7 @@ router.post('/senators/:senator', function(req, res) {
     else {
         Senator.findOneAndUpdate({ 'name': req.body.senator.name }, { $inc: { 'guessesWrong': 1 }}, null, function(err, res) {console.log(err,res);});
     }
-    res.send('OK');
+    res.send();
 });
 
 router.get('/test', function(req, res) {
@@ -61,9 +69,39 @@ router.get('/test', function(req, res) {
     });
 });
 
-router.post('/results', function(req, res) {
-    res.render('results');
+
+
+
+router.post('/create_session', function(req, res) {
+
+  var session = new Session({ right: req.body.correct, wrong: req.body.incorrect });
+  session.save(function (err) {
+    if (err) // ...
+      console.log('error saving session');
+    else {
+      console.log('session saved  :',session._id)
+      res.send({'id':session._id});
+    }
+  });
 });
+
+router.get('/results/:session', function(req, res, next) {
+  res.render('results', { title: 'Results' });
+});
+
+router.get('/session/:id', function(req, res, next) {
+  console.log('??????')
+  console.log(req.params.id);
+  Session.findOne({'_id': req.params.id}, function(err, session) {
+      if (err) {
+        console.log(err);
+        res.send(500);
+      }
+      console.log(session);
+      res.send({'session':session});
+  });
+});
+
 
 
 
