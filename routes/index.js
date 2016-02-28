@@ -69,9 +69,6 @@ router.get('/test', function(req, res) {
     });
 });
 
-
-
-
 router.post('/create_session', function(req, res) {
 
   var session = new Session({ right: req.body.correct, wrong: req.body.incorrect });
@@ -79,7 +76,7 @@ router.post('/create_session', function(req, res) {
     if (err) // ...
       console.log('error saving session');
     else {
-      console.log('session saved  :',session._id)
+      console.log('session saved  :',session._id);
       res.send({'id':session._id});
     }
   });
@@ -90,8 +87,6 @@ router.get('/results/:session', function(req, res, next) {
 });
 
 router.get('/session/:id', function(req, res, next) {
-  console.log('??????')
-  console.log(req.params.id);
   Session.findOne({'_id': req.params.id}, function(err, session) {
       if (err) {
         console.log(err);

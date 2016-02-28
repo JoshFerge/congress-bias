@@ -65,10 +65,12 @@ button {
 .name {
     font-size:1.3em;
     color:black;
+    background-color:#eee;
+    border:2px solid black;
 }
 .test {
     padding: 20px 0 20px 0;
-    background-color: #eee;
+    /*background-color: #eee;*/
     margin-top:125px;
     max-width:1300px;
     margin-left:auto;
