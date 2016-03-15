@@ -29,15 +29,13 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
   };
   $scope.getInfo();
   $scope.done = function() {
-    console.log('test')
-    console.log(JSON.stringify($scope.currentSession))
     $http.post('create_session', $scope.currentSession).success(function(res) {
       console.log(res);
       window.location.href = '/results/'+res.id;
-    })
+    });
 
     // $http.post("/senators/"+currentSenator.name, {'senator':currentSenator});
-  }
+  };
   document.getElementById('Done').addEventListener('click', $scope.done);
 
 
@@ -80,14 +78,13 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
       $scope.currentIndex+=1;
       console.log($scope.currentIndex);
       if ($scope.currentIndex > 2) {
-        console.log('hi')
         document.getElementById('Done').style.visibility = "visible";
       }
     }
     else {
       $scope.done();
     }
-  }
+  };
 
     $scope.shuffle = function(array) {
       var currentIndex = array.length, temporaryValue, randomIndex;
@@ -111,8 +108,8 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
 PartyGuesserApp.controller('resultsCtrl', function ($rootScope,$scope,$http) {
   $http.get("/session/"+location.href.substr(location.href.lastIndexOf('/') + 1)).success(function(res) {
     console.log(res);
-    $scope.sessionInfo = res.session
-    makeChart([{num:$scope.sessionInfo.right.length,text:"right"},{num:$scope.sessionInfo.wrong.length,text:"wrong"}])
+    $scope.sessionInfo = res.session;
+    makeChart([{num:$scope.sessionInfo.right.length,text:"right"},{num:$scope.sessionInfo.wrong.length,text:"wrong"}]);
   });
 
 
