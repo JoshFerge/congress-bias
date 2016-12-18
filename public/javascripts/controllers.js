@@ -27,11 +27,8 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
   $scope.getInfo();
   $scope.done = function() {
     $http.post('create_session', $scope.currentSession).success(function(res) {
-      console.log(res);
       window.location.href = '/results/'+res.id;
     });
-
-    // $http.post('/senators/'+currentSenator.name, {'senator':currentSenator});
   };
   document.getElementById('Done').addEventListener('click', $scope.done);
 
@@ -73,7 +70,6 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
 
     if ($scope.currentIndex < $scope.senatorInfo.length-1) {
       $scope.currentIndex+=1;
-      console.log($scope.currentIndex);
       if ($scope.currentIndex > 10) {
         document.getElementById('Done').style.visibility = 'visible';
       }
@@ -82,7 +78,7 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
       $scope.done();
     }
   };
-
+    // added shuffle function to randomize senator order, taken from http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
     $scope.shuffle = function(array) {
       var currentIndex = array.length, temporaryValue, randomIndex;
       // While there remain elements to shuffle...
@@ -99,14 +95,9 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
     };
 });
 
-
-
-
 PartyGuesserApp.controller('resultsCtrl', function ($rootScope,$scope,$http) {
   $http.get('/session/'+location.href.substr(location.href.lastIndexOf('/') + 1)).success(function(res) {
-    console.log(res);
     $scope.sessionInfo = res.session;
-    // console.log($scope.sessionInfo.left);
     document.getElementById('results').innerHTML = 'You got ' + $scope.sessionInfo.right.length + ' right and ' + $scope.sessionInfo.wrong.length + ' wrong!';
   });
 });

@@ -1,22 +1,17 @@
 const MONGO_HOST = process.env.MONGO_HOST;
 const GA_TRACKING_CODE = process.env.GA_TRACKING_CODE;
 
-var express = require('express');
-var router = express.Router();
-var shortid = require('shortid');
-var mongoose = require('mongoose');
+let express = require('express');
+let router = express.Router();
+let shortid = require('shortid');
+let mongoose = require('mongoose');
 
 mongoose.connect('mongodb://' + MONGO_HOST + '/congress-bias');
 
-var db = mongoose.connection;
+let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function (callback) {
-  console.log('Database connection made');
-});
 
-
-
-var senatorSchema = mongoose.Schema({
+let senatorSchema = mongoose.Schema({
   name: String,
   state: String,
   party: String,
@@ -25,7 +20,7 @@ var senatorSchema = mongoose.Schema({
   guessesWrong: Number,
   image: String
 });
-var sessionSchema = mongoose.Schema({
+let sessionSchema = mongoose.Schema({
   right: Array,
   wrong: Array,
   _id: {
@@ -35,9 +30,10 @@ var sessionSchema = mongoose.Schema({
   }
 });
 
-var Session = mongoose.model('Session', sessionSchema);
-var Senator = mongoose.model('Senator', senatorSchema);
+let Session = mongoose.model('Session', sessionSchema);
+let Senator = mongoose.model('Senator', senatorSchema);
 
+// Route for Healthcheck
 router.get('/_ah/health', function(req, res) {
     res.send();
 });
@@ -55,7 +51,6 @@ router.get('/senators/:senator', function(req, res) {
 });
 
 router.post('/senators/:senator', function(req, res) {
-    console.log(req.body.senator.name);
     if (req.body.guess) {
         Senator.findOneAndUpdate({ 'name': req.body.senator.name }, { $inc: { 'guessesRight': 1 }}, null, function(err, res) {console.log(err,res);});
     }
@@ -79,7 +74,6 @@ router.post('/create_session', function(req, res) {
       console.log('error saving session');
     }
     else {
-      console.log('session saved  :',session._id);
       res.send({'id':session._id});
     }
   });
@@ -95,11 +89,9 @@ router.get('/session/:id', function(req, res, next) {
         console.log(err);
         res.send(500);
       }
-      console.log(session);
       res.send({'session':session});
   });
 });
-
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
