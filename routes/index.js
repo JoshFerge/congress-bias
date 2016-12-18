@@ -1,4 +1,5 @@
 const MONGO_HOST = process.env.MONGO_HOST;
+const GA_TRACKING_CODE = process.env.GA_TRACKING_CODE;
 
 var express = require('express');
 var router = express.Router();
@@ -12,6 +13,7 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function (callback) {
   console.log('Database connection made');
 });
+
 
 
 var senatorSchema = mongoose.Schema({
@@ -72,7 +74,7 @@ router.post('/senators/:senator', function(req, res) {
 
 router.get('/test', function(req, res) {
     Senator.find({'name': req.params.senator}, function(err, senator) {
-        res.render('test');
+        res.render('test', { title: 'Test', 'GA': GA_TRACKING_CODE });
     });
 });
 
@@ -80,8 +82,9 @@ router.post('/create_session', function(req, res) {
 
   var session = new Session({ right: req.body.correct, wrong: req.body.incorrect });
   session.save(function (err) {
-    if (err) // ...
+    if (err) {
       console.log('error saving session');
+    }
     else {
       console.log('session saved  :',session._id);
       res.send({'id':session._id});
@@ -90,7 +93,7 @@ router.post('/create_session', function(req, res) {
 });
 
 router.get('/results/:session', function(req, res, next) {
-  res.render('results', { title: 'Results' });
+  res.render('results', { title: 'Results', 'GA': GA_TRACKING_CODE });
 });
 
 router.get('/session/:id', function(req, res, next) {
@@ -109,7 +112,7 @@ router.get('/session/:id', function(req, res, next) {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Which Side Congress Bias Game', 'GA': GA_TRACKING_CODE });
 });
 
 module.exports = router;
