@@ -74,7 +74,7 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
     if ($scope.currentIndex < $scope.senatorInfo.length-1) {
       $scope.currentIndex+=1;
       console.log($scope.currentIndex);
-      if ($scope.currentIndex > 2) {
+      if ($scope.currentIndex > 10) {
         document.getElementById('Done').style.visibility = "visible";
       }
     }
