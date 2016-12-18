@@ -43,12 +43,16 @@ var Senator = mongoose.model('Senator', senatorSchema);
 //     console.log(r);
 //     db.close();
 // });
+router.get('/_ah/health', function(req, res) {
+    res.send();
+});
 
 router.get('/senators', function(req, res) {
     Senator.find({}, function(err, users) {
         res.send(users);
     });
 });
+
 router.get('/senators/:senator', function(req, res) {
     Senator.find({'name': req.params.senator}, function(err, senator) {
         res.send(senator);
