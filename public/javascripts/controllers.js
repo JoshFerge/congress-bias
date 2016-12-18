@@ -1,14 +1,14 @@
-
+/* globals angular */
 var PartyGuesserApp = angular.module('PartyGuesserApp', []);
 
 PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
   var l = document.getElementById('indicator');
   var r = document.getElementById('rightindicator');
   l.addEventListener('animationend', function() {
-    document.getElementById('indicator').className = "";
+    document.getElementById('indicator').className = '';
   });
   r.addEventListener('animationend', function() {
-    document.getElementById('rightindicator').className = "";
+    document.getElementById('rightindicator').className = '';
   });
 
   $scope.currentIndex = 0;
@@ -19,7 +19,7 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
   };
 
   $scope.getInfo = function() {
-    $http.get("/senators").success(function(response) {
+    $http.get('/senators').success(function(response) {
       $scope.senatorInfo = $scope.shuffle(response);
 
     });
@@ -31,7 +31,7 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
       window.location.href = '/results/'+res.id;
     });
 
-    // $http.post("/senators/"+currentSenator.name, {'senator':currentSenator});
+    // $http.post('/senators/'+currentSenator.name, {'senator':currentSenator});
   };
   document.getElementById('Done').addEventListener('click', $scope.done);
 
@@ -40,7 +40,7 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
     var currentSenator = $scope.senatorInfo[$scope.currentIndex];
 
     if (party === currentSenator.party) {
-      $http.post("/senators/"+currentSenator.name, {'senator':currentSenator,'correct':true});
+      $http.post('/senators/'+currentSenator.name, {'senator':currentSenator,'correct':true});
       $scope.currentSession.correct.push(currentSenator);
 
       if (party === 'Republican') {
@@ -56,7 +56,7 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
       }
     }
     else {
-      $http.post("/senators/"+currentSenator.name, {'senator':currentSenator,'correct':false});
+      $http.post('/senators/'+currentSenator.name, {'senator':currentSenator,'correct':false});
       $scope.currentSession.incorrect.push(currentSenator);
       if (party === 'Republican') {
         r.innerHTML = 'incorrect';
@@ -75,7 +75,7 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
       $scope.currentIndex+=1;
       console.log($scope.currentIndex);
       if ($scope.currentIndex > 10) {
-        document.getElementById('Done').style.visibility = "visible";
+        document.getElementById('Done').style.visibility = 'visible';
       }
     }
     else {
@@ -103,7 +103,7 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
 
 
 PartyGuesserApp.controller('resultsCtrl', function ($rootScope,$scope,$http) {
-  $http.get("/session/"+location.href.substr(location.href.lastIndexOf('/') + 1)).success(function(res) {
+  $http.get('/session/'+location.href.substr(location.href.lastIndexOf('/') + 1)).success(function(res) {
     console.log(res);
     $scope.sessionInfo = res.session;
     // console.log($scope.sessionInfo.left);

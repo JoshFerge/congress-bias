@@ -38,13 +38,6 @@ var sessionSchema = mongoose.Schema({
 var Session = mongoose.model('Session', sessionSchema);
 var Senator = mongoose.model('Senator', senatorSchema);
 
-// var g = {"senatorInfo":[{'name':'Bernie Sanders','state':'Vermont','party':'Democrat','image':'/images/bernie_sanders.jpg'}]};
-
-// Senator.collection.insertMany(g.senatorInfo, function(err,r) {
-//     console.log(err);
-//     console.log(r);
-//     db.close();
-// });
 router.get('/_ah/health', function(req, res) {
     res.send();
 });
@@ -106,8 +99,6 @@ router.get('/session/:id', function(req, res, next) {
       res.send({'session':session});
   });
 });
-
-
 
 
 /* GET home page. */
