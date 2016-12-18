@@ -1,8 +1,11 @@
+const MONGO_HOST = process.env.MONGO_HOST;
+
 var express = require('express');
 var router = express.Router();
 var shortid = require('shortid');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/congress-bias');
+
+mongoose.connect('mongodb://' + MONGO_HOST + '/congress-bias');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
