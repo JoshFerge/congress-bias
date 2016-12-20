@@ -22,20 +22,15 @@ block content
   script.
     (adsbygoogle = window.adsbygoogle || []).push({});
 
-  #front-main(ng-controller="resultsCtrl")
+  #front-main-results(ng-controller="resultsCtrl")
     h1(id="results") Here are your results!
-
     br
-    br
-    h2 We are going to be doing some insightful research on the response data. If you'd like to be informed about what we find out, sign up.
+    h2 We are doing some insightful research on the response data. If you'd like to be informed about what we find out, sign up.
     br
 
     // Begin MailChimp Signup Form
     link(href='//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css', rel='stylesheet', type='text/css')
     style(type='text/css').
-      #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-      /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-      We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     #mc_embed_signup
       form#mc-embedded-subscribe-form.validate(action='//github.us13.list-manage.com/subscribe/post?u=b879a9d38d9059900a90933cb&id=ef91d5df1f', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
         #mc_embed_signup_scroll
