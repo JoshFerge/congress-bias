@@ -1,4 +1,6 @@
 /* globals angular */
+
+/* initialize angular */
 var PartyGuesserApp = angular.module('PartyGuesserApp', []);
 
 PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
@@ -10,21 +12,21 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
   r.addEventListener('animationend', function() {
     document.getElementById('rightindicator').className = '';
   });
-
   $scope.currentIndex = 0;
 
   $scope.currentSession = {
     correct: [],
     incorrect: []
   };
-
+  
+  /* get all senator info and shuffle the response so order is randomized */
   $scope.getInfo = function() {
     $http.get('/senators').success(function(response) {
       $scope.senatorInfo = $scope.shuffle(response);
-
     });
   };
   $scope.getInfo();
+  /* when done, by clicking "I'm Done" or finishing all 100 senators, create a sess with the results id */
   $scope.done = function() {
     $http.post('create_session', $scope.currentSession).success(function(res) {
       window.location.href = '/results/'+res.id;
@@ -32,10 +34,9 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
   };
   document.getElementById('Done').addEventListener('click', $scope.done);
 
-
   $scope.advance = function(party) {
     var currentSenator = $scope.senatorInfo[$scope.currentIndex];
-
+    /* if guess was correct */
     if (party === currentSenator.party) {
       $http.post('/senators/'+currentSenator.name, {'senator':currentSenator,'correct':true});
       $scope.currentSession.correct.push(currentSenator);
@@ -53,6 +54,7 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
       }
     }
     else {
+      /* if guess was wrong */
       $http.post('/senators/'+currentSenator.name, {'senator':currentSenator,'correct':false});
       $scope.currentSession.incorrect.push(currentSenator);
       if (party === 'Republican') {
@@ -94,10 +96,12 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
       return array;
     };
 });
-
+/* controller for the results page */
 PartyGuesserApp.controller('resultsCtrl', function ($rootScope,$scope,$http) {
   $http.get('/session/'+location.href.substr(location.href.lastIndexOf('/') + 1)).success(function(res) {
     $scope.sessionInfo = res.session;
-    document.getElementById('results').innerHTML = 'You got ' + $scope.sessionInfo.right.length + ' right and ' + $scope.sessionInfo.wrong.length + ' wrong!';
+    document.getElementById('results').innerHTML = 'You got ' + 
+    $scope.sessionInfo.right.length + ' right and ' +
+    $scope.sessionInfo.wrong.length + ' wrong!';
   });
 });

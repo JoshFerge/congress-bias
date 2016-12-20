@@ -1,3 +1,4 @@
+/* grab stuff from environment variables */
 const MONGO_HOST = process.env.MONGO_HOST;
 const GA_TRACKING_CODE = process.env.GA_TRACKING_CODE;
 
@@ -33,7 +34,7 @@ let sessionSchema = mongoose.Schema({
 let Session = mongoose.model('Session', sessionSchema);
 let Senator = mongoose.model('Senator', senatorSchema);
 
-// Route for Healthcheck
+// route for healthcheck
 router.get('/_ah/health', function(req, res) {
     res.send();
 });
@@ -67,8 +68,7 @@ router.get('/test', function(req, res) {
 });
 
 router.post('/create_session', function(req, res) {
-
-  var session = new Session({ right: req.body.correct, wrong: req.body.incorrect });
+  let session = new Session({ right: req.body.correct, wrong: req.body.incorrect });
   session.save(function (err) {
     if (err) {
       console.log('error saving session');
