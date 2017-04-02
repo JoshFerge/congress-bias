@@ -23,6 +23,10 @@ PartyGuesserApp.controller('mainCtrl', function ($rootScope,$scope,$http) {
   $scope.getInfo = function() {
     $http.get('/senators').success(function(response) {
       $scope.senatorInfo = $scope.shuffle(response);
+      $scope.senatorInfo.map( (senator) => {
+        senator.formattedName = senator.name.replace(/ /g,'_');
+        return senator;
+      });
     });
   };
   $scope.getInfo();

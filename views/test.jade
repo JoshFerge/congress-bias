@@ -8,7 +8,7 @@ block content
                 div(id="indicator") correct
             div(class="col-md-4 ")
                 p(class="name") {{senatorInfo[currentIndex].name}}
-                img(width="300px" ng-src="/images/{{senatorInfo[currentIndex].name}}.jpg")
+                img(width="300px" ng-src="/images/senator-mugs/{{senatorInfo[currentIndex].formattedName}}.jpeg")
                 button(class="done" id="Done") I'm Done!
             div(class="col-md-4 rightside")
                 button(class="right adb" ng-click="advance('Republican')") Republican

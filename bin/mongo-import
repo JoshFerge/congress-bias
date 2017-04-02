@@ -1,0 +1,1 @@
+bin/mongoimport -d congress-bias -c senators --type csv --file /users/joshuaferge/Documents/congress-bias/database_infos/senators.csv --headerline

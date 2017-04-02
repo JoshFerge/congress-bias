@@ -1,4 +1,4 @@
-State,Class,Name,Party,Occupation,Previous Office(s),Education,Assumed Office,Born,Seat Up
+state,class,name,party,occupation,previous_offices,education,assumed_office,born,seat_up
 Alabama,3,Richard Shelby,Republican,Lawyer in private practice,"U.S. House, Alabama Senate","University of Alabama, Tuscaloosa(BA; LLB)
 Birmingham School of Law (JD)","January 3, 1987","May 6, 1934 (age 82)",2022
 Alabama,2,Luther Strange,Republican,Lawyer in private practice,Alabama Attorney General,"Tulane University(BA, JD)","February 9, 2017","March 1, 1953 (age 64)",2018
@@ -67,7 +67,7 @@ Kentucky,3,Rand Paul,Republican,Ophthalmologist,Congressional Intern,"Baylor Uni
 Duke University(MD)","January 3, 2011","January 7, 1963 (age 54)",2022
 Louisiana,2,Bill Cassidy,Republican,Physician,"U.S. House, Louisiana Senate","Louisiana State University, Baton Rogue(BS)
 Louisiana State University, New Orleans(MD)","January 3, 2015","September 28, 1957 (age 59)",2020
-Louisiana,3,John N. Kennedy,Republican,"Attorney, Law professor","Louisiana Secretary of Revenue, Governor's counsel, Louisiana Treasurer","Vanderbilt University(BA)
+Louisiana,3,John Kennedy,Republican,"Attorney, Law professor","Louisiana Secretary of Revenue, Governor's counsel, Louisiana Treasurer","Vanderbilt University(BA)
 University of Virginia (JD)
 Magdalen College, Oxford (BCL)","January 3, 2017","November 21, 1951 (age 65)",2022
 Maine,2,Susan Collins,Republican,Executive director of the Center for Family Business at Husson University,Maine Professional and Financial Regulation Commissioner,St. Lawrence University(BA),"January 3, 1997","December 7, 1952 (age 64)",2020
@@ -140,7 +140,7 @@ Stanford University(BA)
 University of Oregon (JD)","February 6, 1996","May 3, 1949 (age 67)",2022
 Oregon,2,Jeff Merkley,Democratic,Director of nonprofits,"Oregon House Speaker, Defense Department tech worker, CBO Analyst,","Stanford University(BA)
 Princeton University(MPA)","January 3, 2009","October 24, 1956 (age 60)",2020
-Pennsylvania,1,Bob Casey Jr.,Democratic,"Teacher, basketball coach, lawyer in private practice","Pennsylvania Treasurer, Pennsylvania Auditor","College of the Holy Cross(BA)
+Pennsylvania,1,Bob Casey,Democratic,"Teacher, basketball coach, lawyer in private practice","Pennsylvania Treasurer, Pennsylvania Auditor","College of the Holy Cross(BA)
 Catholic University of America (JD)","January 3, 2007","April 13, 1960 (age 56)",2018
 Pennsylvania,3,Pat Toomey,Republican,"Currency trader, restaurant owner",U.S. House,Harvard University(BA),"January 3, 2011","November 17, 1961 (age 55)",2022
 Rhode Island,2,Jack Reed,Democratic,Lawyer at law firms,"U.S. Army Major, U.S. House, Rhode Island Senate","United States Military Academy (BS)
