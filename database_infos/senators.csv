@@ -1,101 +1,186 @@
-state,class,name,party,private_sector_experience,prior_position,education,assumed_office,dob,term_expires
-Alabama,3,Richard Shelby,Republican,,"U.S. House, Alabama Senate",University of Alabama (B.A.; LL.B.),1/3/1987,5/6/1934,1/3/2017
-Alabama,2,Jeff Sessions,Republican,lawyer in private practice,"Alabama Attorney General, U.S. Attorney for the Southern District of Alabama",Huntingdon College (B.A.)  University of Alabama (J.D.),1/3/1997,12/24/1946,1/3/2021
-Alaska,3,Lisa Murkowski,Republican,lawyer in private practice,Alaska House of Representatives,Georgetown University (B.A.)  Willamette University (J.D.),12/20/2002,5/22/1957,1/3/2017
-Alaska,2,Dan Sullivan,Republican,,"Commissioner of the Alaska Department of Natural Resources, Alaska Attorney General, Assistant U.S. Secretary of State for Economic and Business Affairs",Harvard College  Georgetown University,1/3/2015,11/13/1964,1/3/2021
-Arizona,3,John McCain,Republican,,"U.S. House, U.S. Navy Captain",United States Naval Academy (B.S.),1/3/1987,8/29/1936,1/3/2017
-Arizona,1,Jeff Flake,Republican,nonprofit director,U.S. House,Brigham Young University (B.A.),1/3/2013,12/31/1962,1/3/2019
-Arkansas,3,John Boozman,Republican,optometrist,"Rogers Public School board member, U.S. House",University of Arkansas (attended)  Southern College of Optometry (O.D.),1/3/2011,12/10/1950,1/3/2017
-Arkansas,2,Tom Cotton,Republican,,U.S. House,Harvard University  Claremont Graduate University,1/3/2015,5/13/1977,1/3/2021
-California,1,Dianne Feinstein,Democratic,,"Mayor of San Francisco, San Francisco Board of Supervisors",Stanford University (B.A.),11/10/1992,6/22/1933,1/3/2019
-California,3,Barbara Boxer,Democratic,"stockbroker, journalist","U.S. House, Marin County Board of Supervisors",Brooklyn College (B.A.),1/3/1993,11/11/1940,1/3/2017
-Colorado,3,Michael Bennet,Democratic,managing director of an investment firm,Denver Public Schools Superintendent,Wesleyan University (B.A.)  Yale University (J.D.),1/21/2009,11/28/1964,1/3/2017
-Colorado,2,Cory Gardner,Republican,,"U.S. House, Colorado House of Representatives",Colorado State University  University of Colorado Law School,1/3/2015,8/22/1974,1/3/2021
-Connecticut,3,Richard Blumenthal,Democratic,,"Connecticut Attorney General, Connecticut Senate, Connecticut House of Representatives","Harvard University (B.A.)  Trinity College, Cambridge (attended)  Yale University (J.D.)",1/5/2011,2/13/1946,1/3/2017
-Connecticut,1,Chris Murphy,Democratic,,"U.S. House, Connecticut Senate, Connecticut House of Representatives","Williams College (B.A.)  Exeter College, Oxford (attended)  University of Connecticut (J.D.)",1/3/2013,8/3/1973,1/3/2019
-Delaware,1,Tom Carper,Democratic,,"Governor of Delaware, U.S. House, Delaware State Treasurer",The Ohio State University (B.A.)  University of Delaware (M.B.A.),1/3/2001,1/23/1947,1/3/2019
-Delaware,2,Chris Coons,Democratic,"volunteer, director for nonprofits, lawyer for a manufacturer",County Executive of New Castle County,Amherst College (B.A.)  University of Nairobi (attended)  Yale University (J.D.; M.A.),11/15/2010,9/9/1963,1/3/2021
-Florida,1,Bill Nelson,Democratic,"lawyer in private practice, astronaut","Florida State Treasurer, U.S. House, Florida House of Representatives",University of Florida (attended)  Yale University (B.A.)  University of Virginia (J.D.),1/3/2001,9/29/1942,1/3/2019
-Florida,3,Marco Rubio,Republican,,Speaker of the Florida House of Representatives,University of Florida (B.A.)  University of Miami (J.D.),1/3/2011,5/28/1971,1/3/2017
-Georgia,3,Johnny Isakson,Republican,real estate broker,"U.S. House, Georgia Senate, Georgia House of Representatives",University of Georgia (B.B.A.),1/3/2005,12/28/1944,1/3/2017
-Georgia,2,David Perdue,Republican,business owner,,Georgia Institute of Technology,1/3/2015,12/10/1949,1/3/2021
-Hawaii,3,Brian Schatz,Democratic,"CEO, director of nonprofits","Lieutenant Governor of Hawaii, Hawaii House of Representatives",Pomona College (B.A.),12/26/2012,10/20/1972,1/3/2017
-Hawaii,1,Mazie Hirono,Democratic,lawyer in private practice,"U.S. House, Hawaii House of Representatives, Lieutenant Governor of Hawaii",University of Hawaii at Manoa (B.A.)  Georgetown University (J.D.),1/3/2013,11/3/1947,1/3/2019
-Idaho,3,Mike Crapo,Republican,,"U.S. House, Idaho Senate",Brigham Young University (B.A.)  Harvard University (J.D.),1/3/1999,5/20/1951,1/3/2017
-Idaho,2,Jim Risch,Republican,"professor, rancher, president of nonprofit","Governor of Idaho, Lieutenant Governor of Idaho, President pro tempore of the Idaho Senate, Ada County Prosecuting Attorney",University of Wisconsin–Milwaukee (attended)  University of Idaho (B.S.; J.D.),1/3/2009,5/3/1943,1/3/2021
-Illinois,2,Dick Durbin,Democratic,"meatpacking plant laborer, lawyer in private practice, professor",U.S. House,Georgetown University (B.S.; J.D.),1/3/1997,11/21/1944,1/3/2021
-Illinois,3,Mark Kirk,Republican,teacher at a private school,U.S. House,Cornell University (B.A.)  London School of Economics (M.A.)  Georgetown University (J.D.),11/29/2010,9/15/1959,1/3/2017
-Indiana,3,Dan Coats,Republican,worker at a life insurance firm,"U.S. Ambassador to Germany, U.S. Senate, U.S. House",Wheaton College (B.A.)  Indiana University – Purdue University Indianapolis (J.D.),1/3/2011,5/16/1943,1/3/2017
-Indiana,1,Joe Donnelly,Democratic,"printer, lawyer in a law firm",U.S. House,University of Notre Dame (B.A.; J.D.),1/3/2013,9/29/1955,1/3/2019
-Iowa,3,Chuck Grassley,Republican,"farmer, factory worker","U.S. House, Iowa House of Representatives",University of Northern Iowa (B.A.; M.A.),1/3/1981,9/17/1933,1/3/2017
-Iowa,2,Joni Ernst,Republican,farmer,Iowa Senate,Iowa State University  Columbus State University,1/3/2015,7/1/1970,1/3/2021
-Kansas,2,Pat Roberts,Republican,journalist,U.S. House,Kansas State University (B.A.),1/3/1997,4/20/1936,1/3/2021
-Kansas,3,Jerry Moran,Republican,"banker, lawyer in a law firm","U.S. House, Kansas Senate",Fort Hays State University (attended)  University of Kansas (B.A.; J.D.),1/3/2011,5/29/1954,1/3/2017
-Kentucky,2,Mitch McConnell,Republican,,Jefferson County Executive,University of Louisville (B.A.)  University of Kentucky (J.D.),1/3/1985,2/20/1942,1/3/2021
-Kentucky,3,Rand Paul,Republican,ophthalmologist,Congressional Intern,Baylor University (attended)  Duke University (M.D.),1/3/2011,1/7/1963,1/3/2017
-Louisiana,3,David Vitter,Republican,"lawyer in private practice, professor","U.S. House, Louisiana House of Representatives","Harvard University (A.B.)  Magdalen College, Oxford (B.A.)  Tulane University (J.D.)",1/3/2005,5/3/1961,1/3/2017
-Louisiana,2,Bill Cassidy,Republican,physician,"U.S. House, Louisiana Senate",Louisiana State University(B.A.)  LSU Health Sciences Center New Orleans (M.D.),1/3/2015,9/28/1957,1/3/2021
-Maine,2,Susan Collins,Republican,,Commissioner of the Maine Department of Professional and Financial Regulation,St. Lawrence University (B.A.),1/3/1997,12/7/1952,1/3/2021
-Maine,1,Angus King,Independent,founder and vice-president of energy companies,Governor of Maine,Dartmouth College (B.A.)  University of Virginia (J.D.),1/3/2013,3/31/1944,1/3/2019
-Maryland,3,Barbara Mikulski,Democratic,social worker,"U.S. House, Baltimore City Council","Mount Saint Agnes College (B.A.)  University of Maryland, Baltimore (M.S.W.)",1/3/1987,7/20/1936,1/3/2017
-Maryland,1,Ben Cardin,Democratic,lawyer in private practice,"U.S. House, Maryland House of Delegates","University of Pittsburgh (B.A.)  University of Maryland, Baltimore (J.D.)",1/3/2007,10/5/1943,1/3/2019
-Massachusetts,1,Elizabeth Warren,Democratic,"lawyer at a law firm and in private practice, law school professor, research associate, vice-president of a nonprofit",Special Assistant to the President,"George Washington University (attended)  University of Houston (B.A.)  Rutgers University, Newark (J.D.)",1/3/2013,6/22/1949,1/3/2019
-Massachusetts,2,Ed Markey,Democratic,lawyer in private practice,"U.S. House, Massachusetts House",Boston College (B.A.; J.D.),7/16/2013,7/11/1946,1/3/2021
-Michigan,1,Debbie Stabenow,Democratic,,"U.S. House, Michigan Senate, Michigan House of Representatives, Ingham County Board of Commissioners",Michigan State University (B.A.; M.S.W.),1/3/2001,4/29/1950,1/3/2019
-Michigan,2,Gary Peters,Democratic,,"U.S. House, Michigan Lottery Commissioner, Michigan Senate",Alma College  University of Detroit Mercy  Wayne State University  Michigan State University,1/3/2015,12/1/1958,1/3/2021
-Minnesota,1,Amy Klobuchar,Democratic-Farmer-Labor,lawyer in a law firm,Hennepin County Attorney,Yale University (B.A.)  University of Chicago (J.D.),1/3/2007,5/25/1960,1/3/2019
-Minnesota,2,Al Franken,Democratic-Farmer-Labor,"comedian, writer, radio talk show host",,Harvard University (A.B.),7/7/2009,5/21/1951,1/3/2021
-Mississippi,2,Thad Cochran,Republican,lawyer in private practice,U.S. House,University of Mississippi (B.A.; J.D.),12/27/1978,12/7/1937,1/3/2021
-Mississippi,1,Roger Wicker,Republican,,"U.S. House, Mississippi State Senate",University of Mississippi (B.A.; J.D.),12/31/2007,7/5/1951,1/3/2019
-Missouri,1,Claire McCaskill,Democratic,trial lawyer,"State Auditor of Missouri, Missouri House of Representatives, Jackson County Prosecutor",University of Missouri (B.S.; J.D.),1/3/2007,7/24/1953,1/3/2019
-Missouri,3,Roy Blunt,Republican,,"U.S. House, Missouri Secretary of State, President of Southwest Baptist University",Southwest Baptist University (B.A.)  Missouri State University (M.A.),1/3/2011,1/10/1950,1/3/2017
-Montana,1,Jon Tester,Democratic,"music teacher, farmer",Member and President of the Montana Senate,University of Great Falls (B.S.),1/3/2007,8/21/1956,1/3/2019
-Montana,2,Steve Daines,Republican,,U.S. House,Montana State University,1/3/2015,8/20/1962,1/3/2021
-Nebraska,1,Deb Fischer,Republican,rancher,Nebraska Legislature,University of Nebraska-Lincoln (B.S.),1/3/2013,3/1/1951,1/3/2019
-Nebraska,2,Ben Sasse,Republican,,President of Midland University,Harvard College  St. John's College  Yale University,1/3/2015,2/22/1972,1/3/2021
-Nevada,3,Harry Reid,Democratic,,"U.S. House, Lieutenant Governor of Nevada, Nevada Assembly",Southern Utah University (attended)  Utah State University (B.S.)  George Washington University (J.D.),1/3/1987,12/2/1939,1/3/2017
-Nevada,1,Dean Heller,Republican,"stockbroker, stock trader","U.S. House, Nevada Secretary of State, Nevada Assembly",University of Southern California (B.B.A.),5/9/2011,5/10/1960,1/3/2019
-New Hampshire,2,Jeanne Shaheen,Democratic,"teacher, entrepreneur","Governor of New Hampshire, New Hampshire Senate",Shippensburg University of Pennsylvania (B.A.)  University of Mississippi (M.A.),1/3/2009,1/28/1947,1/3/2021
-New Hampshire,3,Kelly Ayotte,Republican,lawyer in a law firm,New Hampshire Attorney General,Pennsylvania State University (B.A.)  Villanova University (J.D.),1/3/2011,6/27/1968,1/3/2017
-New Jersey,1,Bob Menendez,Democratic,lawyer in private practice,"U.S. House, New Jersey Senate, New Jersey General Assembly, Mayor of Union City",Saint Peter's College (B.A.)  Rutgers School of Law (J.D.),1/18/2006,1/1/1954,1/3/2019
-New Jersey,2,Cory Booker,Democratic,pro bono lawyer,Mayor of Newark,"Stanford University (B.A; M.A.)  The Queen's College, Oxford (M.A.)  Yale University (J.D.)",10/31/2013,4/27/1969,1/3/2021
-New Mexico,2,Tom Udall,Democratic,,"law clerk, Assistant U.S. Attorney, U.S. House, New Mexico Attorney General",Prescott College (B.A.)  University of Cambridge (LL.B.)  University of New Mexico (J.D.),1/3/2009,5/18/1948,1/3/2021
-New Mexico,1,Martin Heinrich,Democratic,"director of nonprofit, consultant","U.S. House, Albuquerque City Council",University of Missouri (B.S.)  University of New Mexico (attended),1/3/2013,10/17/1971,1/3/2019
-New York,3,Chuck Schumer,Democratic,,"U.S. House, New York State Assembly",Harvard University (A.B.; J.D.),1/3/1999,11/23/1950,1/3/2017
-New York,1,Kirsten Gillibrand,Democratic,"lawyer for law firms, law clerk, special counsel",U.S. House,"Dartmouth College (B.A.)  University of California, Los Angeles (J.D.)",1/26/2009,12/9/1966,1/3/2019
-North Carolina,3,Richard Burr,Republican,"sales manager, director of nonprofits",U.S. House,Wake Forest University (B.A.),1/3/2005,11/30/1955,1/3/2017
-North Carolina,2,Thom Tillis,Republican,,Speaker of the North Carolina House of Representatives,University of Maryland University College,1/3/2015,8/30/1960,1/3/2021
-North Dakota,3,John Hoeven,Republican,banker,Governor of North Dakota,Dartmouth College (B.A.)  Northwestern University (M.B.A.),1/3/2011,3/13/1957,1/3/2017
-North Dakota,1,Heidi Heitkamp,Democratic,lawyer for state government agencies,"North Dakota Attorney General, Tax Commissioner of North Dakota",University of North Dakota (B.A.)  Lewis and Clark College (J.D.),1/3/2013,10/30/1955,1/3/2019
-Ohio,1,Sherrod Brown,Democratic,Teacher,"U.S. House, Ohio Secretary of State, Ohio House of Representatives",Yale University (B.A.)  The Ohio State University (M.P.A.; M.A.),1/3/2007,11/9/1952,1/3/2019
-Ohio,3,Rob Portman,Republican,"farm hand, lobbyist, lawyer in a law firm","U.S. House, U.S. Trade Representative, Director of the Office of Management and Budget",Dartmouth College (B.A.)  University of Michigan (J.D.),1/3/2011,12/19/1955,1/3/2017
-Oklahoma,2,Jim Inhofe,Republican,"army veteran, businessman, developer, president of insurance company","U.S. House, Mayor of Tulsa, Oklahoma Senate, Oklahoma House of Representatives",University of Tulsa (B.A.),11/17/1994,11/17/1934,1/3/2021
-Oklahoma,3,James Lankford,Republican,,U.S. House,University of Texas at Austin  Southwestern Baptist Theological Seminary,1/3/2015,3/4/1968,1/3/2017
-Oregon,3,Ron Wyden,Democratic,"teacher, director of nonprofit",U.S. House,"University of California, Santa Barbara (attended)  Stanford University (B.A.)  University of Oregon (J.D.)",2/6/1996,5/3/1949,1/3/2017
-Oregon,2,Jeff Merkley,Democratic,"technology worker for the DOD, director of nonprofits","CBO Analyst, Speaker of the Oregon House",Stanford University (B.A.)  Princeton University (M.P.P.),1/3/2009,10/24/1956,1/3/2021
-Pennsylvania,1,"Bob Casey, Jr.",Democratic,"teacher, basketball coach, lawyer in private practice","Pennsylvania State Treasurer, Pennsylvania Auditor General",College of the Holy Cross (B.A.)  The Catholic University of America (J.D.),1/3/2007,4/13/1960,1/3/2019
-Pennsylvania,3,Pat Toomey,Republican,"bank currency swap trader, restaurant owner",U.S. House,Harvard University (A.B.),1/3/2011,11/17/1961,1/3/2017
-Rhode Island,2,Jack Reed,Democratic,lawyer at law firms,"U.S. Army paratrooper, Company Commander, Battalion Staff Officer, Captain, U.S. House, Rhode Island Senate","United States Military Academy (B.S.)  Harvard University (M.P.A., J.D.)",1/3/1997,11/12/1949,1/3/2021
-Rhode Island,1,Sheldon Whitehouse,Democratic,,"state law clerk, Special Assistant to Attorney General, Governor's Executive Counsel, Rhode Island Attorney General, U.S. Attorney for the District of Rhode Island, Rhode Island Director of Business Regulation",Yale University (B.A.)  University of Virginia (J.D.),1/3/2007,10/20/1955,1/3/2019
-South Carolina,2,Lindsey Graham,Republican,lawyer in private practice,"judge advocate, military prosecutor, U.S. House, South Carolina House of Representatives",University of South Carolina (B.A.; J.D.),1/3/2003,7/9/1955,1/3/2021
-South Carolina,3,Tim Scott,Republican,"insurance agent, financial adviser","U.S. House, South Carolina House of Representatives, Charleston County Council",Presbyterian College (attended)  Charleston Southern University (B.S.),1/2/2013,9/19/1965,1/3/2017
-South Dakota,3,John Thune,Republican,"legislative aide, director of SD Republican Party, director of Municipal League, Railroad Director",U.S. House,Biola University (B.A.)  University of South Dakota (M.B.A.),1/3/2005,1/7/1961,1/3/2017
-South Dakota,2,Mike Rounds,Republican,,"Governor of South Dakota, South Dakota Senate",South Dakota State University,1/3/2015,10/24/1954,1/3/2021
-Tennessee,2,Lamar Alexander,Republican,,"law clerk, Senate staffer, Governor of Tennessee, U.S. Secretary of Education",Vanderbilt University (B.A.)  New York University (J.D.),1/3/2003,7/3/1940,1/3/2021
-Tennessee,1,Bob Corker,Republican,"construction laborer and superintendent, owner of construction and real estate companies","Mayor of Chattanooga, Tennessee Commissioner of Finance and Administration",University of Tennessee (B.S.),1/3/2007,8/24/1952,1/3/2019
-Texas,2,John Cornyn,Republican,lawyer,"state district judge, Texas Attorney General, Associate Justice of the Texas Supreme Court",Trinity University (B.A.)  St Mary's University (J.D.)  University of Virginia (LL.M.),12/1/2002,2/2/1952,1/3/2021
-Texas,1,Ted Cruz,Republican,Lawyer for a law firm,"Law clerk in 4th Circuit and Supreme Court, associate deputy attorney general, policy planner, Solicitor General of Texas",Princeton University (B.A.)  Harvard University (J.D.),1/3/2013,12/22/1970,1/3/2019
-Utah,1,Orrin Hatch,Republican,"janitor, construction worker, bishop, lawyer",,Brigham Young University (B.A.)  University of Pittsburgh (J.D.),1/3/1977,3/22/1934,1/3/2019
-Utah,3,Mike Lee,Republican,lawyer for a law firms,"law clerk for U.S. District Court and 3rd Circuit Court, Assistant U.S. Attorney",Brigham Young University (B.A.; J.D.),1/3/2011,6/4/1971,1/3/2017
-Vermont,3,Patrick Leahy,Democratic,lawyer in private practice,Chittenden County State's Attorney,Saint Michael's College (B.A.)  Georgetown University (J.D.),1/3/1975,3/31/1940,1/3/2017
-Vermont,1,Bernie Sanders,Democratic,"carpenter, filmmaker, writer, researcher, professor","Mayor of Burlington, U.S. House",Brooklyn College (attended)  University of Chicago (B.A.),1/3/2007,9/8/1941,1/3/2019
-Virginia,2,Mark Warner,Democratic,"broker of mobile phone franchise licenses, venture capitalist","Governor of Virginia, Chairman of the Virginia Democratic Party",George Washington University (B.A.)  Harvard University (J.D.),1/3/2009,12/15/1954,1/3/2021
-Virginia,1,Tim Kaine,Democratic,"missionary, law clerk, lawyer in private practice, teacher","Governor of Virginia, Lieutenant Governor of Virginia, Mayor of Richmond, city councilman, Chairman of the Democratic National Committee",University of Missouri (B.A.)  Harvard University (J.D.),1/3/2013,2/26/1958,1/3/2019
-Washington,3,Patty Murray,Democratic,"preschool teacher, parenting teacher, lobbyist","Washington Senate, Shoreline School District Board of Directors",Washington State University (B.A.),1/3/1993,10/11/1950,1/3/2017
-Washington,1,Maria Cantwell,Democratic,marketing vice-president,"U.S. House, Washington House of Representatives",Miami University (B.A.),1/3/2001,10/13/1958,1/3/2019
-West Virginia,1,Joe Manchin,Democratic,president of a coal mining company,"Governor of West Virginia, West Virginia Secretary of State, West Virginia Senate, West Virginia House of Delegates",West Virginia University (B.S.),11/15/2010,8/24/1947,1/3/2019
-West Virginia,2,Shelley Moore Capito,Republican,,U.S. House,Duke University  Curry School of Education,1/3/2015,11/26/1953,1/3/2021
-Wisconsin,3,Ron Johnson,Republican,"accountant, CEO of plastics manufacturer",,University of Minnesota (B.A.),1/3/2011,4/8/1955,1/3/2017
-Wisconsin,1,Tammy Baldwin,Democratic,lawyer in private practice,"U.S. House, Wisconsin State Assembly, Dane County, Wisconsin Board of Supervisors",Smith College (B.A.)  University of Wisconsin - Madison (J.D.),1/3/2013,2/11/1962,1/3/2019
-Wyoming,2,Mike Enzi,Republican,"shoe salesman, president of nonprofit","Wyoming Air National Guard, member of Coal Advisory Committee (Department of Interior), accountant for an oil drilling company, executive director for a gas/coal/utilities company, Wyoming Senate, Wyoming House of Representatives, Mayor of Gillette",George Washington University (B.S.)  University of Denver (M.B.A.),1/3/1997,2/1/1944,1/3/2021
-Wyoming,1,John Barrasso,Republican,"physician in private practice, orthopedic surgeon, chief of staff of a medical center, president/physician for several nonprofits",Wyoming Senate,Rensselaer Polytechnic Institute (attended)  Georgetown University (B.A.; M.D.),6/25/2007,7/21/1952,1/3/2019
+State,Class,Name,Party,Occupation,Previous Office(s),Education,Assumed Office,Born,Seat Up
+Alabama,3,Richard Shelby,Republican,Lawyer in private practice,"U.S. House, Alabama Senate","University of Alabama, Tuscaloosa(BA; LLB)
+Birmingham School of Law (JD)","January 3, 1987","May 6, 1934 (age 82)",2022
+Alabama,2,Luther Strange,Republican,Lawyer in private practice,Alabama Attorney General,"Tulane University(BA, JD)","February 9, 2017","March 1, 1953 (age 64)",2018
+Alaska,3,Lisa Murkowski,Republican,Lawyer in private practice,Alaska House,"Georgetown University(BA)
+Willamette University(JD)","December 20, 2002","May 22, 1957 (age 59)",2022
+Alaska,2,Dan Sullivan,Republican,Lawyer in private practice,"Alaska Natural Resources Commissioner, Alaska Attorney General, U.S. Assistant Secretary of State for Economic and Business Affairs","Harvard University(BA)
+Georgetown University(MS; JD)","January 3, 2015","November 13, 1964 (age 52)",2020
+Arizona,3,John McCain,Republican,"Vice president of public relations, Hensley & Co.","U.S. House, U.S. Navy Captain",United States Naval Academy (BS),"January 3, 1987","August 29, 1936 (age 80)",2022
+Arizona,1,Jeff Flake,Republican,Nonprofit director,U.S. House,"Brigham Young University, Utah (BA; MA)","January 3, 2013","December 31, 1962 (age 54)",2018
+Arkansas,3,John Boozman,Republican,Optometrist,"Rogers Public School Board, U.S. House","University of Arkansas, Fayetteville(attended)
+Southern College of Optometry(OD)","January 3, 2011","December 10, 1950 (age 66)",2022
+Arkansas,2,Tom Cotton,Republican,Lawyer,"U.S. House, U.S. Army Captain","Harvard University(BA; JD)
+Claremont Graduate University(attended)","January 3, 2015","May 13, 1977 (age 39)",2020
+California,1,Dianne Feinstein,Democratic,Nonprofit organization board of directors member,"San Francisco Mayor, San Francisco Board",Stanford University(BA),"November 10, 1992","June 22, 1933 (age 83)",2018
+California,3,Kamala Harris,Democratic,District attorney,"California Attorney General, San Francisco District Attorney","Howard University(BA)
+University of California, Hastings (JD)","January 3, 2017","October 20, 1964 (age 52)",2022
+Colorado,3,Michael Bennet,Democratic,Managing director of an investment firm,Denver Public Schools Superintendent,"Wesleyan University(BA)
+Yale University(JD)","January 21, 2009","November 28, 1964 (age 52)",2022
+Colorado,2,Cory Gardner,Republican,Lawyer,"U.S. House, Colorado House","Colorado State University, Fort Collins(BA)
+University of Colorado, Boulder (JD)","January 3, 2015","August 22, 1974 (age 42)",2020
+Connecticut,3,Richard Blumenthal,Democratic,Lawyer,"Connecticut Attorney General, Connecticut Senate, Connecticut House","Harvard University(BA)
+Trinity College, Cambridge(attended)
+Yale University(JD)","January 5, 2011","February 13, 1946 (age 71)",2022
+Connecticut,1,Chris Murphy,Democratic,Lawyer,"U.S. House, Connecticut Senate, Connecticut House","Williams College (BA)
+University of Connecticut, Hartford (JD)","January 3, 2013","August 3, 1973 (age 43)",2018
+Delaware,1,Tom Carper,Democratic,None,"Delaware Governor, U.S. House, Delaware Treasurer, U.S. Navy Captain","Ohio State University(BA)
+University of Delaware, Newark (MBA)","January 3, 2001","January 23, 1947 (age 70)",2018
+Delaware,2,Chris Coons,Democratic,"Nonprofit work, lawyer for a manufacturer",New Castle County Executive,"Amherst College (BA)
+Yale University(MA, JD)","November 15, 2010","September 9, 1963 (age 53)",2020
+Florida,1,Bill Nelson,Democratic,Lawyer in private practice,"Florida Treasurer, U.S. House, Florida House, Astronaut","University of Florida(attended)
+Yale University(BA)
+University of Virginia (JD)","January 3, 2001","September 29, 1942 (age 74)",2018
+Florida,3,Marco Rubio,Republican,Lawyer in private practice,Florida House Speaker,"Tarkio College(attended)
+Santa Fe College(attended)
+University of Florida (BA)
+University of Miami (JD)","January 3, 2011","May 28, 1971 (age 45)",2022
+Georgia,3,Johnny Isakson,Republican,Real estate broker,"U.S. House, Georgia Senate, Georgia House",University of Georgia (BBA),"January 3, 2005","December 28, 1944 (age 72)",2022
+Georgia,2,David Perdue,Republican,Chief executive officer,None,Georgia Institute of Technology(BS; MS),"January 3, 2015","December 10, 1949 (age 67)",2020
+Hawaii,3,Brian Schatz,Democratic,"CEO, director of nonprofits","Hawaii Lieutenant Governor, Hawaii House",Pomona College (BA),"December 26, 2012","October 20, 1972 (age 44)",2022
+Hawaii,1,Mazie Hirono,Democratic,Lawyer in private practice,"U.S. House, Hawaii House, Hawaii Lieutenant Governor","University of Hawaii, Manoa (BA)
+Georgetown University(JD)","January 3, 2013","November 3, 1947 (age 69)",2018
+Idaho,3,Mike Crapo,Republican,Lawyer,"U.S. House, Idaho Senate","Brigham Young University, Utah (BA)
+Harvard University(JD)","January 3, 1999","May 20, 1951 (age 65)",2022
+Idaho,2,Jim Risch,Republican,"Professor, rancher, president of nonprofit","Idaho Governor, Idaho Lieutenant Governor, Idaho Senate President pro tempore, Ada County Attorney","University of Wisconsin, Milwaukee(attended)
+University of Idaho, Moscow (BS;JD)","January 3, 2009","May 3, 1943 (age 73)",2020
+Illinois,2,Dick Durbin,Democratic,"Lawyer in private practice, professor",U.S. House,Georgetown University(BS; JD),"January 3, 1997","November 21, 1944 (age 72)",2020
+Illinois,3,Tammy Duckworth,Democratic,"Soldier, Helicopter pilot","U.S. ArmyLieutenant Colonel, U.S. House, Assistant Secretary of Veterans Affairs for Public and Intergovernmental Affairs, Illinois Director of Veterans Affairs","University of Hawaii, Manoa (BA)
+George Washington University(MA)
+Northern Illinois University(attended)
+Capella University(PhD)","January 3, 2017","March 12, 1968 (age 49)",2022
+Indiana,1,Joe Donnelly,Democratic,"Printer, lawyer in a law firm",U.S. House,University of Notre Dame(BA; JD),"January 3, 2013","September 29, 1955 (age 61)",2018
+Indiana,3,Todd Young,Republican,"Attorney, adjunct professor",U.S. House,"United States Naval Academy (BS)
+University of Chicago(MBA)
+University of London (MA)
+Indiana University, Indianapolis(JD)","January 3, 2017","August 24, 1972 (age 44)",2022
+Iowa,3,Chuck Grassley,Republican,"Farmer, sheet metal shearer, assembly line worker","U.S. House, Iowa House","University of Northern Iowa (BA; MA)
+University of Iowa(attended)","January 3, 1981","September 17, 1933 (age 83)",2022
+Iowa,2,Joni Ernst,Republican,Farmer,"U.S. ArmyLieutenant Colonel, Iowa Senate","Iowa State University(BA)
+Columbus State University(MPA)","January 3, 2015","July 1, 1970 (age 46)",2020
+Kansas,2,Pat Roberts,Republican,Journalist,U.S. House,"Kansas State University, Manhattan(BA)","January 3, 1997","April 20, 1936 (age 80)",2020
+Kansas,3,Jerry Moran,Republican,"Banker, lawyer in a law firm","U.S. House, Kansas Senate","Fort Hays State University(attended)
+University of Kansas, Lawrence(BS; JD)","January 3, 2011","May 29, 1954 (age 62)",2022
+Kentucky,2,Mitch McConnell,Republican,None,"U.S. Deputy Assistant Attorney General for Legislative Affairs, Jefferson County Executive","University of Louisville (BA)
+University of Kentucky (JD)","January 3, 1985","February 20, 1942 (age 75)",2020
+Kentucky,3,Rand Paul,Republican,Ophthalmologist,Congressional Intern,"Baylor University(attended)
+Duke University(MD)","January 3, 2011","January 7, 1963 (age 54)",2022
+Louisiana,2,Bill Cassidy,Republican,Physician,"U.S. House, Louisiana Senate","Louisiana State University, Baton Rogue(BS)
+Louisiana State University, New Orleans(MD)","January 3, 2015","September 28, 1957 (age 59)",2020
+Louisiana,3,John N. Kennedy,Republican,"Attorney, Law professor","Louisiana Secretary of Revenue, Governor's counsel, Louisiana Treasurer","Vanderbilt University(BA)
+University of Virginia (JD)
+Magdalen College, Oxford (BCL)","January 3, 2017","November 21, 1951 (age 65)",2022
+Maine,2,Susan Collins,Republican,Executive director of the Center for Family Business at Husson University,Maine Professional and Financial Regulation Commissioner,St. Lawrence University(BA),"January 3, 1997","December 7, 1952 (age 64)",2020
+Maine,1,Angus King,Independent,Founder and vice president of energy companies,Maine Governor,"Dartmouth College (BA)
+University of Virginia (JD)","January 3, 2013","March 31, 1944 (age 73)",2018
+Maryland,1,Ben Cardin,Democratic,Lawyer in private practice,"U.S. House, Maryland House","University of Pittsburgh(BA)
+University of Maryland, Baltimore (JD)","January 3, 2007","October 5, 1943 (age 73)",2018
+Maryland,3,Chris Van Hollen,Democratic,Lawyer,"U.S. House, Maryland General Assembly","Swarthmore College (BA)
+Georgetown University(JD)
+Harvard University(MPP)","January 3, 2017","January 10, 1959 (age 58)",2022
+Massachusetts,1,Elizabeth Warren,Democratic,"Lawyer at a law firm and in private practice, law school professor, research associate, vice president of a nonprofit","CFPB Director, COP Chair","George Washington University(attended)
+University of Houston (BS)
+Rutgers University, Newark (JD)","January 3, 2013","June 22, 1949 (age 67)",2018
+Massachusetts,2,Ed Markey,Democratic,Lawyer in private practice,"U.S. House, Massachusetts House",Boston College (BA;JD),"July 16, 2013","July 11, 1946 (age 70)",2020
+Michigan,1,Debbie Stabenow,Democratic,"Social worker, leadership training consultant","U.S. House, Michigan Senate, Michigan House, Ingham CountyBoard",Michigan State University(BA; MSW),"January 3, 2001","April 29, 1950 (age 66)",2018
+Michigan,2,Gary Peters,Democratic,"Financial advisor, lecturer","U.S. House, Michigan Lottery Commissioner, Michigan Senate","Alma College(BA)
+University of Detroit (MBA)
+Wayne State University(JD)
+Michigan State University(MA)","January 3, 2015","December 1, 1958 (age 58)",2020
+Minnesota,1,Amy Klobuchar,Democratic,Lawyer in a law firm,Hennepin CountyAttorney,"Yale University(BA)
+University of Chicago (JD)","January 3, 2007","May 25, 1960 (age 56)",2018
+Minnesota,2,Al Franken,Democratic,"Comedian, writer, radio talk show host",None,Harvard University(BA),"July 7, 2009","May 21, 1951 (age 65)",2020
+Mississippi,2,Thad Cochran,Republican,Lawyer in private practice,U.S. House,"University of Mississippi, Oxford (BA;JD)","December 27, 1978","December 7, 1937 (age 79)",2020
+Mississippi,1,Roger Wicker,Republican,United States Air Force Officer,"U.S. House, Mississippi Senate","University of Mississippi, Oxford (BA;JD)","December 31, 2007","July 5, 1951 (age 65)",2018
+Missouri,1,Claire McCaskill,Democratic,Trial lawyer,"Missouri Auditor, Missouri House, Jackson CountyAttorney","University of Missouri, Columbia (BS;JD)","January 3, 2007","July 24, 1953 (age 63)",2018
+Missouri,3,Roy Blunt,Republican,President of Southwest Baptist University,"U.S. House, Missouri Secretary of State","Southwest Baptist University, Bolivar (BA)
+Missouri State University, Springfield(MA)","January 3, 2011","January 10, 1950 (age 67)",2022
+Montana,1,Jon Tester,Democratic,"Music teacher, farmer",Montana Senate President,University of Great Falls(BS),"January 3, 2007","August 21, 1956 (age 60)",2018
+Montana,2,Steve Daines,Republican,Businessperson,U.S. House,"Montana State University, Bozeman (BS)","January 3, 2015","August 20, 1962 (age 54)",2020
+Nebraska,1,Deb Fischer,Republican,Rancher,Nebraska Legislature,"University of Nebraska, Lincoln (BS)","January 3, 2013","March 1, 1951 (age 66)",2018
+Nebraska,2,Ben Sasse,Republican,President of Midland University,U.S. Assistant Secretary of Health and Human Services for Planning and Evaluation,"Harvard University(BA)
+St. John's College, Maryland (MA)
+Yale University(MA, MPhil,PhD)","January 3, 2015","February 22, 1972 (age 45)",2020
+Nevada,1,Dean Heller,Republican,"Stockbroker, stock trader","U.S. House, Nevada Secretary of State, Nevada Assembly",University of Southern California(BBA),"May 9, 2011","May 10, 1960 (age 56)",2018
+Nevada,3,Catherine Cortez Masto,Democratic,Attorney,Nevada Attorney General,"University of Nevada, Reno (BS)
+Gonzaga University(JD)","January 3, 2017","March 29, 1964 (age 53)",2022
+New Hampshire,2,Jeanne Shaheen,Democratic,"Teacher, entrepreneur","New Hampshire Governor, New Hampshire Senate","Shippensburg University(BA)
+University of Mississippi, Oxford (MSS)","January 3, 2009","January 28, 1947 (age 70)",2020
+New Hampshire,3,Maggie Hassan,Democratic,"Attorney, healthcare executive","New Hampshire Governor, New Hampshire Senate Majority Leader","Brown University(BA)
+Northeastern University(JD)","January 3, 2017","February 27, 1958 (age 59)",2022
+New Jersey,1,Bob Menendez,Democratic,Lawyer in private practice,"U.S. House, New Jersey Senate, New Jersey General Assembly, Union City Mayor","St. Peter's University(BA)
+Rutgers University, Newark (JD)","January 18, 2006","January 1, 1954 (age 63)",2018
+New Jersey,2,Cory Booker,Democratic,Pro bono lawyer,Newark Mayor,"Stanford University(BA; MA)
+Queen's College, Oxford (MA)
+Yale University(JD)","October 31, 2013","April 22, 1969 (age 47)",2020
+New Mexico,2,Tom Udall,Democratic,Lawyer,"U.S. House, New Mexico Attorney General, Assistant U.S. Attorney, law clerk for the 10th Circuit","Prescott College (BA)
+Downing College, Cambridge(LLB)
+University of New Mexico, Albuquerque(JD)","January 3, 2009","May 18, 1948 (age 68)",2020
+New Mexico,1,Martin Heinrich,Democratic,"Non-profit director, consultant","U.S. House, Albuquerque City Council","University of Missouri, Columbia (BS)
+University of New Mexico, Albuquerque(attended)","January 3, 2013","October 17, 1971 (age 45)",2018
+New York,3,Chuck Schumer,Democratic,None,"U.S. House, New York Assembly",Harvard University(BA; JD),"January 3, 1999","November 23, 1950 (age 66)",2022
+New York,1,Kirsten Gillibrand,Democratic,Lawyer for law firms,"U.S. House, law clerk for the 2nd Circuit, U.S. HUD Departmentspecial counsel","Dartmouth College (BA)
+University of California, Los Angeles(JD)","January 26, 2009","December 9, 1966 (age 50)",2018
+North Carolina,3,Richard Burr,Republican,"Sales manager, director of nonprofits",U.S. House,Wake Forest University(BA),"January 3, 2005","November 30, 1955 (age 61)",2022
+North Carolina,2,Thom Tillis,Republican,Business consultant,North Carolina House Speaker,"Chattanooga State Community College(attended)
+University of Maryland, University College (BA)","January 3, 2015","August 30, 1960 (age 56)",2020
+North Dakota,3,John Hoeven,Republican,Banker,North Dakota Governor,"Dartmouth College (BA)
+Northwestern University(MBA)","January 3, 2011","March 13, 1957 (age 60)",2022
+North Dakota,1,Heidi Heitkamp,Democratic,"Lawyer, gasification plant director","Lawyer for state government agencies, North Dakota Attorney General, North Dakota Tax Commissioner","University of North Dakota(BA)
+Lewis and Clark College(JD)","January 3, 2013","October 30, 1955 (age 61)",2018
+Ohio,1,Sherrod Brown,Democratic,Teacher,"U.S. House, Ohio Secretary of State, Ohio House","Yale University(BA)
+Ohio State University(MA; MPA)","January 3, 2007","November 9, 1952 (age 64)",2018
+Ohio,3,Rob Portman,Republican,"Farm hand, lobbyist, lawyer in a law firm","U.S. House, U.S. Trade Representative, Director of the Office of Management and Budget","Dartmouth College (BA)
+University of Michigan, Ann Arbor(JD)","January 3, 2011","December 19, 1955 (age 61)",2022
+Oklahoma,2,Jim Inhofe,Republican,"Businessperson, developer, president of insurance company","U.S. Army, U.S. House, Tulsa Mayor, Oklahoma Senate, Oklahoma House",University of Tulsa (BA),"November 17, 1994","November 17, 1934 (age 82)",2020
+Oklahoma,3,James Lankford,Republican,Program director at Falls Creek Baptist Conference Center,U.S. House,"University of Texas, Austin(BS)
+Southwestern Baptist Theological Seminary(MDiv)","January 3, 2015","March 4, 1968 (age 49)",2022
+Oregon,3,Ron Wyden,Democratic,"Teacher, nonprofit director",U.S. House,"University of California, Santa Barbara(attended)
+Stanford University(BA)
+University of Oregon (JD)","February 6, 1996","May 3, 1949 (age 67)",2022
+Oregon,2,Jeff Merkley,Democratic,Director of nonprofits,"Oregon House Speaker, Defense Department tech worker, CBO Analyst,","Stanford University(BA)
+Princeton University(MPA)","January 3, 2009","October 24, 1956 (age 60)",2020
+Pennsylvania,1,Bob Casey Jr.,Democratic,"Teacher, basketball coach, lawyer in private practice","Pennsylvania Treasurer, Pennsylvania Auditor","College of the Holy Cross(BA)
+Catholic University of America (JD)","January 3, 2007","April 13, 1960 (age 56)",2018
+Pennsylvania,3,Pat Toomey,Republican,"Currency trader, restaurant owner",U.S. House,Harvard University(BA),"January 3, 2011","November 17, 1961 (age 55)",2022
+Rhode Island,2,Jack Reed,Democratic,Lawyer at law firms,"U.S. Army Major, U.S. House, Rhode Island Senate","United States Military Academy (BS)
+Harvard University(MPP, JD)","January 3, 1997","November 12, 1949 (age 67)",2020
+Rhode Island,1,Sheldon Whitehouse,Democratic,None,"Law clerk for the West Virginia Supreme Court, Special Assistant to Attorney General, Governor's Executive Counsel, Rhode Island Attorney General, U.S. Attorney for the District of Rhode Island, Rhode Island Director of Business Regulation","Yale University(BA)
+University of Virginia (JD)","January 3, 2007","October 20, 1955 (age 61)",2018
+South Carolina,2,Lindsey Graham,Republican,Lawyer in private practice,"Judge advocate, military prosecutor, U.S. House, South Carolina House of Representatives","University of South Carolina, Columbia (BA;JD)","January 3, 2003","July 9, 1955 (age 61)",2020
+South Carolina,3,Tim Scott,Republican,"Insurance agent, financial adviser","U.S. House, South Carolina House, Charleston County Council","Presbyterian College(attended)
+Charleston Southern University(BS)","January 2, 2013","November 19, 1965 (age 51)",2022
+South Dakota,3,John Thune,Republican,"Municipal League Director, Railroad Director","U.S. House, Legislative aide, South Dakota Republican Party Executive Director","Biola University(BS)
+University of South Dakota(MBA)","January 3, 2005","January 7, 1961 (age 56)",2022
+South Dakota,2,Mike Rounds,Republican,Businessperson,"South Dakota Governor, South Dakota Senate",South Dakota State University(BS),"January 3, 2015","October 24, 1954 (age 62)",2020
+Tennessee,2,Lamar Alexander,Republican,Lawyer in a law firm,"Law clerk for the 5th Circuit, Senate staffer, Tennessee Governor, U.S. Secretary of Education","Vanderbilt University(BA)
+New York University(JD)","January 3, 2003","July 3, 1940 (age 76)",2020
+Tennessee,1,Bob Corker,Republican,"Construction laborer and superintendent, owner of construction and real estate companies","Chattanooga Mayor, Tennessee Finance and Administration Commissioner","University of Tennessee, Knoxville (BS)","January 3, 2007","August 24, 1952 (age 64)",2018
+Texas,2,John Cornyn,Republican,Lawyer,"State district judge, Texas Attorney General, Texas Supreme Court Associate Justice","Trinity University, Texas (BA)
+St. Mary's University, Texas (JD)
+University of Virginia (LLM)","December 1, 2002","February 2, 1952 (age 65)",2020
+Texas,1,Ted Cruz,Republican,Lawyer in a law firm,"Law clerk for the U.S. 4th Circuit and Supreme Court, U.S. Associate Deputy Attorney General, federal policy advisor, Texas Solicitor General","Princeton University(BA)
+Harvard University(JD)","January 3, 2013","December 22, 1970 (age 46)",2018
+Utah,1,Orrin Hatch,Republican,"Janitor, construction worker, bishop, lawyer",None,"Brigham Young University, Utah (BA)
+University of Pittsburgh(JD)","January 3, 1977","March 22, 1934 (age 83)",2018
+Utah,3,Mike Lee,Republican,Lawyer in a law firm,"Law clerk for the U.S. District Court and 3rd Circuit, Assistant U.S. Attorney","Brigham Young University, Utah (BA; JD)","January 3, 2011","June 4, 1971 (age 45)",2022
+Vermont,3,Patrick Leahy,Democratic,Lawyer in private practice,Chittenden County State's Attorney,"St. Michael's College (BA)
+Georgetown University(JD)","January 3, 1975","March 31, 1940 (age 77)",2022
+Vermont,1,Bernie Sanders,Democratic,"Filmmaker, carpenter,[2] writer, researcher","Burlington Mayor, U.S. House","Brooklyn College(attended)
+University of Chicago (BA)","January 3, 2007","September 8, 1941 (age 75)",2018
+Virginia,2,Mark Warner,Democratic,"Businessperson, venture capitalist","Virginia Governor, Virginia Democratic Party Chair","George Washington University(BA)
+Harvard University(JD)","January 3, 2009","December 15, 1954 (age 62)",2020
+Virginia,1,Tim Kaine,Democratic,"Missionary, law clerk for the 11th Circuit, lawyer in private practice, teacher","Virginia Governor, Virginia Lieutenant Governor, Richmond Mayor, Richmond City Council, Democratic National Committee Chair","University of Missouri, Columbia (BA)
+Harvard University(JD)","January 3, 2013","February 26, 1958 (age 59)",2018
+Washington,3,Patty Murray,Democratic,"Preschool teacher, parenting teacher, lobbyist","Washington Senate, Shoreline School Board","Washington State University, Pullman (BA)","January 3, 1993","October 11, 1950 (age 66)",2022
+Washington,1,Maria Cantwell,Democratic,Marketing vice president,"U.S. House, Washington House",Miami University(BA),"January 3, 2001","October 13, 1958 (age 58)",2018
+West Virginia,1,Joe Manchin,Democratic,President of a coal mining company,"West Virginia Governor, West Virginia Secretary of State, West Virginia Senate, West Virginia House","West Virginia University, Morgantown(BS)","November 15, 2010","August 24, 1947 (age 69)",2018
+West Virginia,2,Shelley Moore Capito,Republican,"Career counselor, West Virginia State University","U.S. House; West Virginia House of Delegates; Director, West Virginia Board of Regents Educational Information Center","Duke University(BS)
+University of Virginia (MEd)","January 3, 2015","November 26, 1953 (age 63)",2020
+Wisconsin,3,Ron Johnson,Republican,"Accountant, CEO of plastics manufacturer",None,"University of Minnesota, Twin Cities(BS)","January 3, 2011","April 8, 1955 (age 61)",2022
+Wisconsin,1,Tammy Baldwin,Democratic,Lawyer in private practice,"U.S. House, Wisconsin Assembly, Dane County Board","Smith College(BA)
+University of Wisconsin, Madison (JD)","January 3, 2013","February 11, 1962 (age 55)",2018
+Wyoming,2,Mike Enzi,Republican,"Shoe salesman, president of nonprofit, accountant for an oil drilling company, executive director for a gas/coal/utilities company","Wyoming Air National Guard, Member of the Coal Advisory Committee (U.S. Interior Department), Wyoming Senate, Wyoming House, Gillette Mayor","George Washington University(BS)
+University of Denver (MBA)","January 3, 1997","February 1, 1944 (age 73)",2020
+Wyoming,1,John Barrasso,Republican,"Physician in private practice, orthopedic surgeon, chief of staff of a medical center, president/physician for several nonprofits",Wyoming Senate,"Rensselaer Polytechnic Institute(attended)
+Georgetown University(BS; MD)","June 25, 2007","July 21, 1952 (age 64)",2018
